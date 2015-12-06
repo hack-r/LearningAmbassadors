@@ -86,19 +86,19 @@ public class GameView extends JFrame{
 		buttonsPanelBackground.add(leftButtons);
 		
 		leftButtons.add(Box.createRigidArea(new Dimension(0, 30)));
-		newGameButton = new JButton("Nowa Gra");
+		newGameButton = new JButton("New Game");
 		newGameButton.setAlignmentX(CENTER_ALIGNMENT);
 		leftButtons.add(newGameButton);
 		
 		leftButtons.add(Box.createRigidArea(new Dimension(0, 20)));
 		
-		exitButton = new JButton("Wyjście");
+		exitButton = new JButton("Exit");
 		exitButton.setAlignmentX(CENTER_ALIGNMENT);
 		leftButtons.add(exitButton);
 		
 		leftButtons.add(Box.createRigidArea(new Dimension(0, 100)));
 		
-		timeLabel = new JLabel("Czas do zakończenia: ");
+		timeLabel = new JLabel("Time: ");
 		timeLabel.setAlignmentX(CENTER_ALIGNMENT);
 		timeLabel.setOpaque(true);
 		timeLabel.setBackground(Color.yellow);
