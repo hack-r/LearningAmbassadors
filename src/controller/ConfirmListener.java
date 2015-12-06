@@ -21,13 +21,13 @@ public class ConfirmListener implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		if(view.getResultFromUser().equals(model.wynik())) {
 			model.setScore(1);
-			view.setPrompt("Dobrze !!!");
+			view.setPrompt("Correct!!!");
 			model.setIsGood(true);
 			
 			
 		}
 		else {
-			view.setPrompt("Źleee...");
+			view.setPrompt("Almost...");
 			//model.subScore();
 		}
 		
